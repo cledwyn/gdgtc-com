@@ -1,0 +1,24 @@
+application: gdg-tc
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: yes
+#Added powered by appengine to bottom of page.
+
+
+handlers:
+- url: /
+  static_files: app/index.html
+  upload: app/index.html
+
+- url: /
+  static_dir: app
+
+- url: /.*
+  script: gdg.application
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
+  
