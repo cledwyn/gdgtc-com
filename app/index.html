@@ -21,6 +21,15 @@
         <script type="text/javascript" src="js/gdg.js"></script>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-46026381-1', 'gdgtc.com');
+          ga('send', 'pageview');
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -40,8 +49,7 @@
                     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="GDG TC"></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right" id="top-nav">
-                          <li>{{rootMenuActive}}</li>
-                          <li class="{{rootMenuActiveHome}}"><a href="#/home" target="_top">Home {{menuActiveHome}}</a></li>
+                          <li class="{{rootMenuActiveHome}}"><a href="#/home" target="_top">Home</a></li>
                           <li class="{{rootMenuActiveAbout}}"><a href="#/about" target="_top">About</a></li>
                           <!-- <li class="{{rootMenuActiveConduct}}"><a href="#/conduct" target="_top">Conduct</a></li>  -->
                           <li class="{{rootMenuActiveDevfest}}"><a href="#/devfest" target="_top">DevFest</a></li>
@@ -74,8 +82,8 @@
               <h4>GDG-TC</h4>
                 <ul>
                   <li><a href="http://gdgtc.org" target="_top">Home</a></li>
-                  <li><a href="http://gdgtc.org/about"  target="_top">About</a></li>
-                  <li><a href="http://gdgtc.org/contact"  target="_top">Contact</a></li>
+                  <li><a href="http://gdgtc.org/#/about"  target="_top">About</a></li>
+                  <li><a href="http://gdgtc.org/#/contact"  target="_top">Contact</a></li>
                  </ul>
               </div>
               <div class="col-xs-4 col-sm-3 col-md-2">
@@ -91,13 +99,23 @@
                   <li><a href="mailto:info@gdgtc.org">info@gdgtc.org</a></li>
                  </ul>
               </div>
-              <div class="col-xs-6 col-sm-4 col-md-3 social">
+              <div class="col-xs-4 col-sm-3 col-md-2 social">
                 <h4>Social</h4>
                 <a href="https://plus.google.com/105771089293763738926/posts"><img src="img/gplus.png"></a>
                 <a href="mailto:info@gdgtc.org"><img src="img/gmail.png"></a>
                 <a href=""><img src="img/youtube.png" style="display: none;"></a>
                 <a href="http://twitter.com/gdgtc"><img src="img/twitter.png"></a>
                 <a href=""><img src="img/rss.png" style="display: none;"></a>
+              </div>
+              <div class="col-xs-4 col-sm-3 col-md-2 plus">
+                              <g:plusone size="tall"></g:plusone>
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js?onload=onLoadCallback';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
               </div>
             </div>
            </div>
@@ -128,5 +146,6 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+
 </body>
 </html>
