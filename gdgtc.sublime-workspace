@@ -40,7 +40,7 @@
 			"file": "app/partials/devfest.html",
 			"settings":
 			{
-				"buffer_size": 2933,
+				"buffer_size": 3312,
 				"line_ending": "Unix"
 			}
 		},
@@ -48,7 +48,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 7590,
+				"buffer_size": 8141,
 				"line_ending": "Unix"
 			}
 		},
@@ -66,6 +66,14 @@
 			"settings":
 			{
 				"buffer_size": 310,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/partials/sponsor.html",
+			"settings":
+			{
+				"buffer_size": 3748,
 				"line_ending": "Windows"
 			}
 		},
@@ -134,7 +142,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -165,7 +173,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -265,15 +273,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2933,
+						"buffer_size": 3312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								836,
-								836
+								2428,
+								2428
 							]
 						],
 						"settings":
@@ -286,7 +294,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -297,15 +305,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7590,
+						"buffer_size": 8141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2782,
-								2782
+								6498,
+								6498
 							]
 						],
 						"settings":
@@ -318,7 +326,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 1501.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -383,6 +391,38 @@
 				},
 				{
 					"buffer": 7,
+					"file": "app/partials/sponsor.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1083,
+								1083
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "app/partials/about.html",
 					"semi_transient": false,
 					"settings":
@@ -418,7 +458,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -458,7 +498,7 @@
 	"project": "gdgtc.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
